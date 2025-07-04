@@ -95,16 +95,23 @@ return (
             <p><span className="info-label">Captial:</span>{country.capital?.[0] || "N/A"}</p>
           </div>
 
+        <div className="info-column">
+          <p><span className="info-label">Top Level Domain:</span>{country.tld?.[0] || "N/A"}</p>
+          <p><span className="info-label">Currencies:</span>{getCurrencies()}</p>
+          <p><span className="info-label">Languages:</span>{getLanguages()}</p>
         </div>
-    </div>
-
-    </div>
-
-    </div>
+      </div>
 
 
   </div>
-)
+  </div>
+  )
+  }
+
+    
+
+
+  
 
 
 
