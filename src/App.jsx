@@ -1,6 +1,6 @@
 // src/App.jsx//
 
-import { useState, useMemo } from "react"
+import { useState, useMemo } from "react";
 import { ThemeProvider } from "./context/ThemeContext";
 import { useCountries } from "./hooks/useCountries";
 
@@ -11,9 +11,7 @@ import CountryGrid from "./components/CountryGrid";
 import CountryDetail from "./components/CountryDetail";
 import LoadingSpinner from "./components/LoadingSpinner";
 import ErrorMessage from "./components/ErrorMessage";
-
 import "./App.css";
-import { Search } from "lucide-react";
 
 const AppContent=() => {
   const { countries, loading, error, fetchCountryDetails, refetch } = useCountries();
@@ -23,7 +21,7 @@ const AppContent=() => {
   const [selectedCountryCode, setSelectedCountryCode] = useState(null);
 
   // filter countries based on search and region//
-  const filteredCountries = useMemo(() => 
+  const filteredCountries = useMemo(() => {
     let filtered = countries;
     if (searchTerm) {
       filtered = filtered.filter(country =>
@@ -37,7 +35,7 @@ const AppContent=() => {
     }
  
     return filtered;
-    },[countries,searchTerm,selectedRegion]);
+    },[countries, searchTerm, selectedRegion]);
 
   const handleCountryClick = (countryCode) => {
     setSelectedCountryCode(countryCode);
