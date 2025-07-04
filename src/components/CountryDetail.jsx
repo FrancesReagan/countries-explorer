@@ -60,6 +60,16 @@ const getNativeName=() => {
   return nativeNames[0]?.common || "N/A";
 };
 
+const getCurrencies = () => {
+  if(!country.currencies) return "N/A";
+  return Object.values(country.currencies).map(currency => currency.name).join(", ");
+};
+
+const getLanguages = () => {
+  if(!country.languages) return "N/A";
+  return Object.values(country.languages).join(",");
+};
+
 
 
 
