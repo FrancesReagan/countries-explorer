@@ -73,5 +73,29 @@
   margin-bottom:2rem;
 }
 
+.info-grid {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:4rem;
+  margin-bottom:4rem;
+}
+
+.info-column p {
+  margin:0.75rem 0;
+  font-size:1rem;
+  line-height:1.6;
+}
+
+.info-label {
+  font-weight:600;
+}
+
+.borders-section h3{
+  font-size:1rem;
+  font-weight:600;
+  margin-bottom:1rem;
+}
+
+
 
 
