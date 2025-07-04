@@ -1,5 +1,5 @@
 // arc/components/CountryDetail.jsx//
-import React, { use } from "react";
+import React from "react";
 import { useState, useEffect } from "react";
 import { ArrowLeft } from "lucide-react";
 import { useTheme } from "../context/ThemeContext";
@@ -29,7 +29,7 @@ const CountryDetail = ({ countryCode, onBack, fetchCountryDetails }) => {
   if (countryCode) {
     loadCountryDetails();
   }
-},[countryCode, fetchCountryDetails]};
+},[countryCode, fetchCountryDetails]);
 
 if (loading) {
   return (
@@ -67,7 +67,7 @@ const getCurrencies = () => {
 
 const getLanguages = () => {
   if(!country.languages) return "N/A";
-  return Object.values(country.languages).join(",");
+  return Object.values(country.languages).join(", ");
 };
 
 return (
@@ -89,16 +89,16 @@ return (
       <h1 className="country-title">{country.name.common}</h1>
         <div className="info-grid">
           <div className="info-column">
-            <p><span className="info-label">Native Name:</span>{getNativeName()}</p>
-            <p><span className="info-label">Population:</span>{formatPopulation(country.population)}</p>
-            <p><span className="info-label">Sub Region:</span>{country.subregion || "N/A"}</p>
-            <p><span className="info-label">Captial:</span>{country.capital?.[0] || "N/A"}</p>
+            <p><span className="info-label">Native Name:</span> {getNativeName()}</p>
+            <p><span className="info-label">Population:</span> {formatPopulation(country.population)}</p>
+            <p><span className="info-label">Sub Region:</span> {country.subregion || "N/A"}</p>
+            <p><span className="info-label">Capital:</span> {country.capital?.[0] || "N/A"}</p>
           </div>
 
         <div className="info-column">
-          <p><span className="info-label">Top Level Domain:</span>{country.tld?.[0] || "N/A"}</p>
-          <p><span className="info-label">Currencies:</span>{getCurrencies()}</p>
-          <p><span className="info-label">Languages:</span>{getLanguages()}</p>
+          <p><span className="info-label">Top Level Domain:</span> {country.tld?.[0] || "N/A"}</p>
+          <p><span className="info-label">Currencies:</span> {getCurrencies()}</p>
+          <p><span className="info-label">Languages:</span> {getLanguages()}</p>
         </div>
       </div>
 
@@ -107,7 +107,7 @@ return (
       <div className="borders-section">
         <h3>Border Countries:</h3>
          <div className="border-countries">
-          {country.borders.slice(0,8)}.map(border => (
+          {country.borders.slice(0,8).map(border => (
             <span key={border} className={`border-tag ${isDark ? "border-tag-dark" : "border-tag-light"}`}>
               {border}
             </span>
