@@ -37,3 +37,20 @@
   font-weight:600;
 }
 
+.back-button-light {
+  background-color: #ffffff;
+  color:#111517;
+}
+
+.back-button-dark{
+  background-color: #2b3844;
+  color:#ffffff;
+}
+
+.back-button:hover{
+  transform:translateY(-2px);
+  box-shadow:0 4px 12px rgba(0,0,0,0.15);
+}
+
+
+
