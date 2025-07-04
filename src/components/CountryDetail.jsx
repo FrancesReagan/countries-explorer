@@ -103,10 +103,26 @@ return (
       </div>
 
 
+    {country.borders && country.borders.length > 0 && (
+      <div className="borders-section">
+        <h3>Border Countries:</h3>
+         <div className="border-countries">
+          {country.borders.slice(0,8)}.map(border => (
+            <span key={border} className={`border-tag ${isDark ? "border-tag-dark" : "border-tag-light"}`}>
+              {border}
+            </span>
+            ))}
+        </div>
+       </div>
+      )}
+    </div>  
+   </div>
   </div>
   </div>
-  )
-  }
+  );
+};
+
+export default CountryDetail;
 
     
 
