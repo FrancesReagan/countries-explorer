@@ -27,8 +27,20 @@ export const useCountries = () => {
       }
     };
 
+    const fetchCountryDetails = async (countryCode) => {
+      try {
+        const response = await fetch(`https://restcountries.com/v3.1/alpha/${countryCode}`);
+        if(!response.ok) {
+          throw new Error("Country not found");
+        }
 
-    
+        const data = await response.json();
+           return data[0];
+      } catch (error) {
+        throw new Error("Failed to load country details.");
+      }
+    };
+
   }
 
 
