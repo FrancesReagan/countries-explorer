@@ -52,6 +52,14 @@ if (error || !country) {
   );
 }
 
+const formatPopulation = (population) => population.toLocaleString();
+
+const getNativeName=() => {
+  if(!country.name.nativeName) return "N/A";
+  const nativeNames = Object.values(country.name.nativeName);
+  return nativeNames[0]?.common || "N/A";
+};
+
 
 
 
