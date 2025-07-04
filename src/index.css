@@ -1,4 +1,46 @@
-@import "tailwindcss";
+/* src/index.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
+
+*, 
+*::before,
+*::after {
+  box-sizing:border-box;
+}
+
+*{
+  margin:0;
+}
+
+body{
+  font-family:"Nunito Sans",sans-serif;
+  line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+  transition:all 0.3s ease;
+}
+
+.light{
+  background-color:#fafafa;
+  color:#111517;
+}
+
+.dark{
+  background-color: #202c36;
+  color:#ffffff;
+}
+
+img,
+picture,
+video,
+canvas,
+svg{
+  display:block;
+  max-width: 100%;
+}
+
+
+
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
