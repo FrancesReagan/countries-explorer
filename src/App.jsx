@@ -13,6 +13,7 @@ import LoadingSpinner from "./components/LoadingSpinner";
 import ErrorMessage from "./components/ErrorMessage";
 
 import "./App.css";
+import { Search } from "lucide-react";
 
 const AppContent=() => {
   const { countries, loading, error, fetchCountryDetails, refetch } = useCountries();
@@ -40,9 +41,51 @@ const AppContent=() => {
 
   const handleCountryClick = (countryCode) => {
     setSelectedCountryCode(countryCode);
-  };
-      
+    };
+
+  const handleBackClick = () => {
+    setSelectedCountryCode(null);
+   };
+
+   if(selectedCountryCode){
+    return (
+      <div className="app">
+
+      <Header/>
+      <CountryDetail
+        countryCode={selectedCountryCode}
+        onBack={handleBackClick}
+        fetchCountryDetails={fetchCountryDetails}
+        />
+    </div>
+    );
+  }
+
+  return (
+    <div className="app">
+      <Header/>
+
+        <main className="main">
+          <div className="container">
+           <div className="controls">
+              <SearchBar 
+                 searchTerm={searchTerm}
+                 onSearchChange={setSearchTerm}
+                 />
+
+              <RegionFilter
+                selectedRegion={selectedRegion}
+                onRegionChange={setSelectedRegion}
+                />
+                
+           </div>
+
+
+          </div>
+        </main>
+    </div>
+  )
     
  
 
-export default App
+export default App;
