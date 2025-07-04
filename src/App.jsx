@@ -29,16 +29,20 @@ const AppContent=() => {
         country.name.common.toLowerCase().includes(searchTerm.toLowerCase())
       );
     }
- 
 
-  return (
-    <>
-      <div>
-        
-      </div>
+    if (selectedRegion) {
+      filtered = filtered.filter(country => country.region === selectedRegion);
+
+    }
+ 
+    return filtered;
+    },[countries,searchTerm,selectedRegion]);
+
+  const handleCountryClick = (countryCode) => {
+    setSelectedCountryCode(countryCode);
+  };
       
-    </>
-  )
-}
+    
+ 
 
 export default App
