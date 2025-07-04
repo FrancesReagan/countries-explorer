@@ -26,12 +26,32 @@ const CountryDetail = ({ countryCode, onBack, fetchCountryDetails }) => {
     }
   };
 
-  
+  if (countryCode) {
+    loadCountryDetails();
+  }
+},[countryCode, fetchCountryDetails]};
 
-
-
- })
-
-
-
+if (loading) {
+  return (
+    <div className={`detail-loading ${ isDark ? "detail-loading-dark" : "detail-loading-light"}`}>
+     <div className="loading-spinner"></div>
+     <p>Loading Country details...</p>
+    </div>
+  );
 }
+
+if (error || !country) {
+  return (
+    <div className={`detail-error ${isDark ? "detail-error-dark" : "detail-error-light"}`}>
+     <p>{error || "Country not found"}</p>
+     <button onClick={onBack} className={`back-button ${isDark ? "back-button-dark" : "back-button-light"}`}>
+       <ArrowLeft size={16}/>
+        Back
+     </button>
+    </div>
+  );
+}
+
+
+
+
