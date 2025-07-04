@@ -28,3 +28,6 @@ export const ThemeProvider = ({children}) => {
     </ThemeContext.Provider>
   );
 };
+
+// export default ThemeProvider;
+export default ThemeContext;
