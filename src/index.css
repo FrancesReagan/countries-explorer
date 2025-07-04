@@ -38,6 +38,65 @@ svg{
   max-width: 100%;
 }
 
+input,
+button,
+textarea,
+select{
+  font:inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  overflow-wrap:break-word;
+}
+
+button{
+  cursor:pointer;
+}
+
+/* focus styles  */
+button:focus-visible,
+input:focus-visible,
+select:focus-visble{
+  outline:2px solid #3b82f6;
+  outline-offset:2px;
+}
+
+/* smooth scroll */
+html{
+  scroll-behavior:smooth;
+}
+
+/* custom scroll for webkit browsers */
+::-webkit-scrollbar{
+  width:8px;
+}
+
+::-webkit-scrollbar-track{
+  background:#f1f1f1;
+}
+
+.dark ::-webkit-scrollbar-track{
+  background:#2b3844;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #c1c1c1;
+  border-radius:4px;
+}
+
+.dark ::-webkit-scrollbar-thumb{
+  background: #4a5568;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: #a1a1a1;
+}
 
 
 
