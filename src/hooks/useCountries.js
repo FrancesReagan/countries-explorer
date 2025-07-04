@@ -41,7 +41,15 @@ export const useCountries = () => {
       }
     };
 
-  }
+    useEffect(() => {
+      fetchCountries();
+    },[]);
 
-
-}
+    return {
+      countries,
+      loading,
+      error,
+      fetchCountryDetails,
+      refetch: fetchCountries
+    };
+  };
