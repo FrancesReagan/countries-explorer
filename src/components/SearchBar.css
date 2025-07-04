@@ -7,6 +7,7 @@ src/components/SearchBar.css
 }
 
 .search-icon{
+  font-size:1.75rem;
   position:absolute;
   left:1rem;
   top:50%;
@@ -17,11 +18,11 @@ src/components/SearchBar.css
 
 .search-input{
   width:100%;
-  padding:1rem 1rem 1rem 3rem;
+  padding:2rem 2.5rem;
   border:none;
-  border-radius:5px;
+  border-radius:8px;
   box-shadow:0 2px 9px rgba(0,0,0,0.1);
-  font-size:0.875rem;
+  font-size:1.5rem;
   outline:none;
   font-family:inherit;
   transition:all 0.3s ease;
@@ -38,7 +39,8 @@ src/components/SearchBar.css
 }
 
 .search-input::placeholder{
-  color:#999;
+  color:#272424;
+  opacity:1;
 }
 
 .search-input.focus{
