@@ -70,6 +70,42 @@ const getLanguages = () => {
   return Object.values(country.languages).join(",");
 };
 
+return (
+  <div className={` country-detail ${ isDark ? "country-detail-dark" : "country-detail-light"}`}>
+    <div className="detail-container">
+      <button
+        onClick={onBack} className={`back-button ${isDark ? "back-button-dark" : "back-button-light"}`}>
+        <ArrowLeft size={16} />
+          Back
+        </button>
+    <div className="detail-content">
+    <div className="flag-section">
+      <img src={country.flags.svg} alt={`Flag of ${country.name.common}`}
+           className="detail-flag"
+      />
+    </div>
+
+    <div className="info-section">
+      <h1 className="country-title">{country.name.common}</h1>
+        <div className="info-grid">
+          <div className="info-column">
+            <p><span className="info-label">Native Name:</span>{getNativeName()}</p>
+            <p><span className="info-label">Population:</span>{formatPopulation(country.population)}</p>
+            <p><span className="info-label">Sub Region:</span>{country.subregion || "N/A"}</p>
+            <p><span className="info-label">Captial:</span>{country.capital?.[0] || "N/A"}</p>
+          </div>
+
+        </div>
+    </div>
+
+    </div>
+
+    </div>
+
+
+  </div>
+)
+
 
 
 
