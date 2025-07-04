@@ -16,6 +16,10 @@ _Filtered Region to show only Oceania_
 _Country Detail_
 <img width="1280" alt="image" src="https://github.com/user-attachments/assets/b2a309a1-47d8-46e9-8e9d-9b6ed8b0bc23" />
 
+------------------------------------------------------------------------------------------------------------------------------
+
+                                            __COUNTRIES EXPLORER APP__
+
 
 
 
