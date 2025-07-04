@@ -11,11 +11,11 @@ const Header = () => {
     <header className={`header ${isDark?'header-dark':'header-light'}`}>
       <h1 className="header-title">Where in the world?!</h1>
       <button onClick={toggleTheme} className={`theme-toggle ${isDark?'theme-toggle-dark':'theme-toggle-light'}`}>
-      {isDark ? < Sun size={16}/> : <Moon size-{16}/>}
+      {isDark ? <Sun size={16}/> : <Moon size={16}/>}
       {isDark?'Light Mode':'Dark Mode'}
       </button>
     </header>
-  ):
+  );
 };
 
 export default Header;
