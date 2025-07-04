@@ -51,3 +51,17 @@
 .theme-toggle-dark:hover{
   background-color: rgba(255,255,255,0.1);
 }
+
+@media(max-width:768px){
+  .header{
+    padding:1rem;
+  }
+
+  .header-title{
+    font-size:1.2rem;
+  }
+
+  .theme-toggle{
+    font-size:0.9rem;
+  }
+}
