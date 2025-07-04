@@ -1,0 +1,17 @@
+src/components/SearchBar.css
+
+.search-container{
+  postion:relative;
+  max-width:400px;
+  flex:1;
+}
+
+.search-icon{
+  position:absolute;
+  left:1rem;
+  top:50%;
+  transform:translateY(-50%);
+  z-index:1;
+  color:#999;
+}
+
