@@ -77,14 +77,30 @@ const AppContent=() => {
                 selectedRegion={selectedRegion}
                 onRegionChange={setSelectedRegion}
                 />
-                
            </div>
-
-
+          {loading ? (
+            <LoadingSpinner/>
+          ) : error ? (
+            <ErrorMessage message={error} onRetry={refetch} />
+          ) : (
+            <CountryGrid
+               countries={filteredCountries}
+               onCountryClick={handleCountryClick}
+             />
+          )}
           </div>
         </main>
     </div>
-  )
+  );
+};
+
+const App = () => {
+  return (
+    <ThemeProvider>
+      <AppContent/>
+    </ThemeProvider>
+  );
+};
     
  
 
