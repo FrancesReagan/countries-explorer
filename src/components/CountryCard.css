@@ -1,0 +1,24 @@
+/* src/components/CountryCard.css */
+
+.country-card{
+  border-radius:5px;
+  box-shadow:0 0 7px 2px rgba(0,0,0,0.5);
+  cursor:pointer;
+  transition:all 0.3s ease;
+  overflow:hidden;
+}
+
+.country-card-light{
+  background-color: #ffffff;
+}
+
+.country-card-dark{
+  background-color: #2b3844;
+
+}
+
+.country-card:hover{
+  transform:translateY(-8px);
+  box-shadow:0 8px 24px rgba(0,0,0,0.15);
+}
+
