@@ -98,7 +98,9 @@ html{
   background: #a1a1a1;
 }
 
-
+.dark ::-webkit-scrollbar-thumb:hover{
+  background:#6b7280;
+}
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
