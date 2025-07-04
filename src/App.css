@@ -57,6 +57,18 @@
   transform:translateY(-2px);
 }
 
+@media (max-width:768px){
+  .container{
+    padding:0 1rem;
+  }
+
+  .controls{
+    flex-direction:column;
+    align-items:stretch;
+    gap:2rem;
+    padding:2rem 0 1rem;
+  }
+}
 
 /* #root {
   max-width: 1280px;
