@@ -1,7 +1,7 @@
 src/components/SearchBar.css
 
 .search-container{
-  postion:relative;
+  position:relative;
   max-width:400px;
   flex:1;
 }
@@ -45,3 +45,8 @@ src/components/SearchBar.css
   box-shadow:0 2px 12px rgba(0,0,0,0.15);
 }
 
+@media (max-width:768px){
+  .search-container{
+    max-width:none;
+  }
+}
