@@ -122,7 +122,7 @@
   padding:1.5rem 2.5rem;
   border-radius:8px;
   font-size:1.25rem;
-  box-shadow:0 4px 12px rgba (0,0,0,0.1);
+  box-shadow:0 4px 12px rgba(0,0,0,0.1);
   font-weight:600;
   cursor:pointer;
   transition: all 0.3s ease;
@@ -156,7 +156,7 @@
 
 .detail-loading-light,
 .detail-error-light{
-  background-color:#f0f0f0
+  background-color:#f0f0f0;
   color:#333333;
 }
 
@@ -164,6 +164,10 @@
 .detail-error-dark{
   background-color:#202c36;
   color:#ffffff;
+}
+
+.flag-section {
+  width:100%;
 }
 
 .loading-spinner{
