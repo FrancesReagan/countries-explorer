@@ -13,10 +13,10 @@ const RegionFilter = ({ selectedRegion, onRegionChange }) => {
    <div className="region-filter-container">
     <button 
       onClick={() => setIsOpen(!isOpen)}
-      className={`region-select ${isDark ? "region-select-dark":"region-select-light"}`}
+      className={`region-select ${isOpen ? "open": ""} ${isDark ? "region-select-dark" : "region-select-light"}`}
       > 
       {selectedRegion || "Filter by Region"}
-      <ChevronDown size={16}/>
+      <ChevronDown size={20}/>
       </button>
 
    {isOpen && (
