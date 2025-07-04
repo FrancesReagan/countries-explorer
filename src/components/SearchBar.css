@@ -31,3 +31,17 @@ src/components/SearchBar.css
   background-color: #ffffff;
   color:#111517;
 }
+
+.search-input-dark{
+  background-color: #2b2844;
+  color:#ffffff;
+}
+
+.search-input::placeholder{
+  color:#999;
+}
+
+.search-input.focus{
+  box-shadow:0 2px 12px rgba(0,0,0,0.15);
+}
+
