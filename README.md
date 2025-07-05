@@ -21,12 +21,12 @@ _Dark Mode_
 ---------------------------------------------------------------------------------------------------------------------------
 
 
-<img width="1280" alt="image" src="https://github.com/user-attachments/assets/e857e052-92a4-4723-8e59-b954ee1a7661" />
-_Filtered Region to show only Oceania_
+<img width="1280" alt="image" src="https://github.com/user-attachments/assets/e857e052-92a4-4723-8e59-b954ee1a7661" />_Filtered Region to show only Oceania_
+
 ---------------------------------------------------------------------------------------------------------------------------
 
-_Country Detail_
-<img width="1280" alt="image" src="https://github.com/user-attachments/assets/b2a309a1-47d8-46e9-8e9d-9b6ed8b0bc23" />
+
+<img width="1280" alt="image" src="https://github.com/user-attachments/assets/b2a309a1-47d8-46e9-8e9d-9b6ed8b0bc23" />_Country Detail_
 
 
 _Responsive Design Examples_
