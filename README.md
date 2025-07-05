@@ -89,7 +89,7 @@ _Responsive Design Examples_
 
 <img width="388" alt="image" src="https://github.com/user-attachments/assets/acb6c4ae-bd2b-461f-ba1b-6409000dca5a" />
 
-<img width="591" alt="image" src="https://github.com/user-attachments/assets/dd9ac58a-c230-41b5-aca6-9a1225081b11" />
+<img width="725" alt="image" src="https://github.com/user-attachments/assets/c139b1b7-95d2-446a-9088-2971d6abacfa" />
 
 
 
