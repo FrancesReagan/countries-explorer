@@ -31,9 +31,40 @@ __Features__
 *Modern animations: on drop-drop menus--hover effects and subtle transitions-- and loading states*
 
 __Tech Used__
-*React 19-
 
+*React 19-modern React with functional components and hooks*
 
+*Vite 6-build tool and development server*
+
+*REST Countries API-comprehensive country data (public--no API key required)*
+
+*Lucide React- modern icon library*
+
+*CSS grid & flexbox - advanced responsive layout techniques*
+
+*CSS custom properties- dynamic theme switching implementation*
+
+__React Concepts__
+
+*Component Architecture: reusable components with clear functionalities*
+
+*State Management: useState, useContext, and custom hooks (useCountries)*
+
+*Side Effects: useEffect for API calls and lifecycle management*
+
+*Performance optimization: useMemo for expensive filtering calculations (without useMemo--this amount of filtering and would be re-rendering would be costly in CPU intensive, time-consuming, and resource-heavy).*
+
+*Conditional rendering: dynamic UI based on the application state*
+
+*Event handling: complex user interactions and form controls*
+
+*Error Boundaries: graceful error handling and loading states*
+
+_______________________________________________________________________________________________________________________________________________________________
+__Live DEMO__
+[Link to live Demo of Countries Explorer App](https://countries-explorerfrj.netlify.app/)
+
+_Screenshots_
 _Light Mode_
 <img width="1280" alt="image" src="https://github.com/user-attachments/assets/7a7b5f89-81dc-4f6c-a55a-94b20f1a5b19" />
 
