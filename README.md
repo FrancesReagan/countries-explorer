@@ -163,6 +163,28 @@ __React Concepts__
    -CSS layout issues: grid layout displaying countries in a single column; solution: removed conflicting default Vite styles and fixed CSS class names
    
    -Theme integration: consistent light/dark mode across all components; solution: implemented proper CSS class management with Context API
+   
+   -Component Structure: JSX syntax errors and improper nesting; solution: refactored components with proper parent-child relationships
+   
+   -Large-scale UI design: balancing large fonts with responsive design; solution: created scalable typography system with breakpoint-specific sizing
+   
+   -Modern dropdown styles: first take on drop-down button was dull; solution: built better dropdown menu with animations and hover effects.
+
+ __Test__
+   -Run test suite:
+   `npm test`
+
+__Deployment__
+ -Netlify: build the project `npm run build`; drag and drop the `dist` folder to Netlify; get instant live URL with auto deployments
+
+_______________________________________________________________________________________________________________________________________________________________
+__Acknowledgements__
+ -My 2025-RTT-23 instructors and cohort classmates--thank you for this amazing journey together; REST Countries API, Lucide React, Vite, Nunito Sans, React Community
+
+ ____________________________________________________________________________________________________________________________________________________________________________
+
+ __Reflections__
+ 
  
 
 
