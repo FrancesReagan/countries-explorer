@@ -216,6 +216,24 @@ __Acknowledgements__
  -creating modern UI elements like custom dropdown menus with subtle animations
  Solution: I developed a scalable typography system with breakpoint-specific sizing and implemented modern CSS techniques for animations and hover effects.
 
+ __Learning Outcomes__
+  This project deepened my understanding of:
+  *React Hooks--useEffect for API calls, useContext for global state management, and useMemo for performance optimization.*
+  *CSS architecture: I learned the importance of consistent naming conventions and avoiding conflicts with framework defaults*
+  *Debugging skills: I developed a more systematic approach to identifying and fixing syntax errors, layout issues, and styling conflicts*
+  *Modern CSS: I gained experience with CSS Grid, flexbox, custom properties, and animation techniques*
+  *API integration: I learned proper error handling, loading states, and data structure management*
+  *Component design: I developed a better understanding of proper JSX structure, parent-child relationships, and reusable component patterns.*
+
+  __Potential Improvements__
+   *Typescript implementatoin--that may be a future practice run of mine--to do this project again using Typescript and Tailwinds.*
+
+__Conclusion__
+The challenges faced on the project reminded me that I needed to refresh my CSS learning and keep it on par with the other subjects I am learning. The biggest challenge I have found in this and all my 
+past projects is lessening typos, mismatched names, and other basic human errors. It also reinforced the necessity of consistent running and checking the browswer to see how what was coded actually looks like--do 
+do this more frequently --it seems like it would take longer--but in fact constant checking the browser speeds up the development process for sure.
+  
+
  
  
 
