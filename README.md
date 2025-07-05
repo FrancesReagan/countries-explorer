@@ -20,8 +20,9 @@ _Dark Mode_
 <img width="228" alt="image" src="https://github.com/user-attachments/assets/a0116f30-f2aa-4112-bb9f-8bdf4fec142e" />_Region Dropdown_
 ---------------------------------------------------------------------------------------------------------------------------
 
-_Filtered Region to show only Oceania_
+
 <img width="1280" alt="image" src="https://github.com/user-attachments/assets/e857e052-92a4-4723-8e59-b954ee1a7661" />
+_Filtered Region to show only Oceania_
 ---------------------------------------------------------------------------------------------------------------------------
 
 _Country Detail_
