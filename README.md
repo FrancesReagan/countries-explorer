@@ -6,16 +6,27 @@ desk-top first approach featuring large, readable fonts, and spacious layouts--a
 
 __Features__
 *Browse the World's countries: view information about 250 countries*
+
 *Real-Time Search: search by country name with responsive filtering*
+
 *Region Filtering: filter countries by continent--Africa, Americas, Asia, Europe, and Oceania).*
+
 *Detailed Country View: click on a country flag to see detailed information about that country:
+
  -Native name and population statistics.
+ 
  -Region, sub-region, and captial city.
+ 
  -Languages and currencies.
+ 
  -Top-level domain information (i.e. each country's internet domain extension--United States--.us).
+ 
  -Border countries display (show neighboring countries by three letter country abbreviation).----planning to make this interactive in next interation.
+ 
 *Light/Dark Theme: toggle between light or dark modes*
+
 *Responsive Layout: responsive design that adapts from desktop to mobile.*
+
 *Modern animations: on drop-drop menus--hover effects and subtle transitions-- and loading states*
 
 __Tech Used__
