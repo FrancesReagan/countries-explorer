@@ -5,7 +5,8 @@ desk-top first approach featuring large, readable fonts, and spacious layouts--a
 [Link to live Demo of Countries Explorer App](https://countries-explorerfrj.netlify.app/)
 
 __Features__
-*Browse the World's countries: view information about 250 countries*
+
+*Browse the World's countries: view information on about 250 countries*
 
 *Real-Time Search: search by country name with responsive filtering*
 
