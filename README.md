@@ -2,6 +2,7 @@
 This Application is modern and responsive and built with React. It allows users to explore countries from around the world by providing
 detailed information, search functinality, and light/dark theme switching capabilities. I deviated from the norm and made this with a 
 desk-top first approach featuring large, readable fonts, and spacious layouts--as its what I like:).
+
 [Link to live Demo of Countries Explorer App](https://countries-explorerfrj.netlify.app/)
 
 __Features__
