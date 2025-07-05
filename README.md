@@ -233,14 +233,13 @@ The challenges faced on the project reminded me that I needed to refresh my CSS 
 past projects is lessening typos, mismatched names, and other basic human errors. It also reinforced the necessity of consistent running and checking the browswer to see how what was coded actually looks like--do 
 do this more frequently --it seems like it would take longer--but in fact constant checking the browser speeds up the development process for sure.🌀
   
-
+https://emojis.wiki/cyclone/
  
  
 
 
 
  
-https://emojis.wiki/
 
                                            
 
