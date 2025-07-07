@@ -230,8 +230,8 @@ __Acknowledgements__
   *API integration: I learned proper error handling, loading states, and data structure management*
   *Component design: I developed a better understanding of proper JSX structure, parent-child relationships, and reusable component patterns.*
 
-  __Potential Improvements__
-   *Typescript implementatoin--that may be a future practice run of mine--to do this project again using Typescript and Tailwinds.* 
+  __Potential Improvements__(as stated above)
+   Typescript implementatoin--that may be a future practice run of mine--to do this project again using Typescript and Tailwinds.
     Will read up on this site for next take on it--- [Mastering Tailwind CSS and Typescript: A comprehensive guide](https://www.xjavascript.com/blog/tailwind-and-typescript/)
 
 __Conclusion__
