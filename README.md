@@ -172,6 +172,10 @@ __React Concepts__
    
    -Modern dropdown styles: first take on drop-down button was dull; solution: built better dropdown menu with animations and hover effects.
 
+    ___Potential Improvements___
+   *Typescript implementatoin--that may be a future practice run of mine--to do this project again using Typescript and Tailwinds.* 
+    Will read up on this site for next take on it--- [Mastering Tailwind CSS and Typescript: A comprehensive guide](https://www.xjavascript.com/blog/tailwind-and-typescript/)
+
  __Test__
    -Run test suite:
    `npm test`
@@ -226,7 +230,8 @@ __Acknowledgements__
   *Component design: I developed a better understanding of proper JSX structure, parent-child relationships, and reusable component patterns.*
 
   __Potential Improvements__
-   *Typescript implementatoin--that may be a future practice run of mine--to do this project again using Typescript and Tailwinds.*
+   *Typescript implementatoin--that may be a future practice run of mine--to do this project again using Typescript and Tailwinds.* 
+    Will read up on this site for next take on it--- [Mastering Tailwind CSS and Typescript: A comprehensive guide](https://www.xjavascript.com/blog/tailwind-and-typescript/)
 
 __Conclusion__
 The challenges faced on the project reminded me that I needed to refresh my CSS learning and keep it on par with the other subjects I am learning. The biggest challenge I have found in this and all my 
