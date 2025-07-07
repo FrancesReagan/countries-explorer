@@ -171,8 +171,9 @@ __React Concepts__
    -Large-scale UI design: balancing large fonts with responsive design; solution: created scalable typography system with breakpoint-specific sizing
    
    -Modern dropdown styles: first take on drop-down button was dull; solution: built better dropdown menu with animations and hover effects.
+   
 
-    ___Potential Improvements___
+__Potential Improvements__
    *Typescript implementatoin--that may be a future practice run of mine--to do this project again using Typescript and Tailwinds.* 
     Will read up on this site for next take on it--- [Mastering Tailwind CSS and Typescript: A comprehensive guide](https://www.xjavascript.com/blog/tailwind-and-typescript/)
 
