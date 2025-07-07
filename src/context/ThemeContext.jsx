@@ -1,6 +1,6 @@
 
 // src/context/ThemeContext.jsx//
-
+// choose not to use useEffect here---probably will do so later for better theme persistence//
 import { createContext, useContext,useState} from "react";
 
 const ThemeContext = createContext();
